@@ -1,0 +1,223 @@
+C:\Users\user\Desktop\Renpy Translator 2.5.7\HOSPITAL funcional\Wells Surgical Hospital Pro v4.4>pyinstaller --noconsole --onefile --name "Wells Surgical Hospital Pro v4.6" --icon=wells.ico --collect-all docx --collect-all PySide6 --collect-all chardet main_hospital.py
+1373 INFO: PyInstaller: 6.10.0, contrib hooks: 2024.8
+1392 INFO: Python: 3.12.10
+1493 INFO: Platform: Windows-11-10.0.26100-SP0
+1493 INFO: Python environment: C:\Users\user\AppData\Local\Programs\Python\Python312
+1525 INFO: wrote C:\Users\user\Desktop\Renpy Translator 2.5.7\HOSPITAL funcional\Wells Surgical Hospital Pro v4.4\Wells Surgical Hospital Pro v4.6.spec
+3349 WARNING: Failed to collect submodules for 'PySide6.scripts.deploy_lib' because importing 'PySide6.scripts.deploy_lib' raised: ModuleNotFoundError: No module named 'project_lib'
+33549 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\python312.zip',
+ 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\DLLs',
+ 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib',
+ 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312',
+ 'C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages',
+ 'C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages\\win32',
+ 'C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages\\win32\\lib',
+ 'C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages\\Pythonwin',
+ 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages',
+ 'C:\\Users\\user\\Desktop\\Renpy Translator 2.5.7\\HOSPITAL funcional\\Wells '
+ 'Surgical Hospital Pro v4.4']
+352 WARNING: qt_material must be imported after PySide or PyQt!
+34836 INFO: Appending 'binaries' from .spec
+34887 INFO: Appending 'datas' from .spec
+35470 INFO: checking Analysis
+35471 INFO: Building Analysis because Analysis-00.toc is non existent
+35471 INFO: Running Analysis Analysis-00.toc
+35471 INFO: Target bytecode optimization level: 0
+35473 INFO: Initializing module dependency graph...
+35475 INFO: Caching module graph hooks...
+36173 INFO: Analyzing base_library.zip ...
+40139 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+45318 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+49396 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+51608 INFO: Caching module dependency graph...
+52047 INFO: Looking for Python shared library...
+52326 INFO: Using Python shared library: C:\Users\user\AppData\Local\Programs\Python\Python312\python312.dll
+52326 INFO: Analyzing C:\Users\user\Desktop\Renpy Translator 2.5.7\HOSPITAL funcional\Wells Surgical Hospital Pro v4.4\main_hospital.py
+52363 INFO: Processing standard module hook 'hook-PySide6.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+53598 INFO: Processing standard module hook 'hook-shiboken6.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+53652 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+57332 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+59193 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+63290 INFO: Processing standard module hook 'hook-docx.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+63900 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+63943 INFO: SetuptoolsInfo: initializing cached setuptools info...
+69820 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+70485 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+73098 INFO: Processing standard module hook 'hook-lxml.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+74676 INFO: Processing standard module hook 'hook-lxml.etree.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+76629 INFO: Analyzing hidden import 'PySide6.Qt3DAnimation'
+76630 INFO: Analyzing hidden import 'PySide6.Qt3DCore'
+76631 INFO: Analyzing hidden import 'PySide6.Qt3DExtras'
+76632 INFO: Analyzing hidden import 'PySide6.Qt3DInput'
+76633 INFO: Analyzing hidden import 'PySide6.Qt3DLogic'
+76633 INFO: Analyzing hidden import 'PySide6.Qt3DRender'
+76634 INFO: Analyzing hidden import 'PySide6.QtAsyncio'
+76747 INFO: Analyzing hidden import 'PySide6.QtAxContainer'
+76748 INFO: Analyzing hidden import 'PySide6.QtBluetooth'
+76749 INFO: Analyzing hidden import 'PySide6.QtCanvasPainter'
+76750 INFO: Analyzing hidden import 'PySide6.QtCharts'
+76751 INFO: Analyzing hidden import 'PySide6.QtConcurrent'
+76751 INFO: Analyzing hidden import 'PySide6.QtDBus'
+76752 INFO: Analyzing hidden import 'PySide6.QtDataVisualization'
+76753 INFO: Analyzing hidden import 'PySide6.QtDesigner'
+76753 INFO: Analyzing hidden import 'PySide6.QtGraphs'
+76754 INFO: Analyzing hidden import 'PySide6.QtGraphsWidgets'
+76755 INFO: Analyzing hidden import 'PySide6.QtGui'
+76755 INFO: Analyzing hidden import 'PySide6.QtHelp'
+76757 INFO: Analyzing hidden import 'PySide6.QtHttpServer'
+76758 INFO: Analyzing hidden import 'PySide6.QtLocation'
+76758 INFO: Analyzing hidden import 'PySide6.QtMultimedia'
+76759 INFO: Analyzing hidden import 'PySide6.QtMultimediaWidgets'
+76759 INFO: Analyzing hidden import 'PySide6.QtNetworkAuth'
+76761 INFO: Analyzing hidden import 'PySide6.QtNfc'
+76761 INFO: Analyzing hidden import 'PySide6.QtOpenGL'
+76762 INFO: Analyzing hidden import 'PySide6.QtOpenGLWidgets'
+76762 INFO: Analyzing hidden import 'PySide6.QtPdf'
+76763 INFO: Analyzing hidden import 'PySide6.QtPdfWidgets'
+76763 INFO: Analyzing hidden import 'PySide6.QtPositioning'
+76765 INFO: Analyzing hidden import 'PySide6.QtPrintSupport'
+76766 INFO: Analyzing hidden import 'PySide6.QtQml'
+76771 INFO: Analyzing hidden import 'PySide6.QtQuick'
+76772 INFO: Analyzing hidden import 'PySide6.QtQuick3D'
+76772 INFO: Analyzing hidden import 'PySide6.QtQuickControls2'
+76774 INFO: Analyzing hidden import 'PySide6.QtQuickTest'
+76774 INFO: Analyzing hidden import 'PySide6.QtQuickWidgets'
+76775 INFO: Analyzing hidden import 'PySide6.QtRemoteObjects'
+76775 INFO: Analyzing hidden import 'PySide6.QtScxml'
+76777 INFO: Analyzing hidden import 'PySide6.QtSensors'
+76778 INFO: Analyzing hidden import 'PySide6.QtSerialBus'
+76778 INFO: Analyzing hidden import 'PySide6.QtSerialPort'
+76779 INFO: Analyzing hidden import 'PySide6.QtSpatialAudio'
+76779 INFO: Analyzing hidden import 'PySide6.QtSql'
+76780 INFO: Analyzing hidden import 'PySide6.QtStateMachine'
+76781 INFO: Analyzing hidden import 'PySide6.QtSvg'
+76782 INFO: Analyzing hidden import 'PySide6.QtSvgWidgets'
+76784 INFO: Analyzing hidden import 'PySide6.QtTest'
+76784 INFO: Analyzing hidden import 'PySide6.QtTextToSpeech'
+76785 INFO: Analyzing hidden import 'PySide6.QtUiTools'
+76786 INFO: Analyzing hidden import 'PySide6.QtWebChannel'
+76787 INFO: Analyzing hidden import 'PySide6.QtWebEngineCore'
+76788 INFO: Analyzing hidden import 'PySide6.QtWebEngineQuick'
+76788 INFO: Analyzing hidden import 'PySide6.QtWebEngineWidgets'
+76790 INFO: Analyzing hidden import 'PySide6.QtWebSockets'
+76791 INFO: Analyzing hidden import 'PySide6.QtWebView'
+76792 INFO: Analyzing hidden import 'PySide6.QtXml'
+76793 INFO: Analyzing hidden import 'PySide6._config'
+76851 INFO: Analyzing hidden import 'PySide6._git_pyside_version'
+76900 INFO: Analyzing hidden import 'PySide6.scripts'
+76901 INFO: Analyzing hidden import 'PySide6.scripts.deploy'
+76968 INFO: Analyzing hidden import 'PySide6.scripts.metaobjectdump'
+77168 INFO: Analyzing hidden import 'PySide6.scripts.project'
+77251 INFO: Analyzing hidden import 'PySide6.scripts.project_lib'
+77630 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+77863 INFO: Analyzing hidden import 'PySide6.scripts.pyside_tool'
+78043 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+78107 INFO: Analyzing hidden import 'PySide6.scripts.qml'
+78155 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+85482 INFO: Processing standard module hook 'hook-PySide6.QtQml.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+142069 INFO: Processing standard module hook 'hook-PySide6.QtQuick.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+144649 INFO: Analyzing hidden import 'PySide6.scripts.qtpy2cpp'
+144696 INFO: Analyzing hidden import 'PySide6.support'
+144700 INFO: Analyzing hidden import 'PySide6.support.deprecated'
+144708 INFO: Analyzing hidden import 'PySide6.support.generate_pyi'
+144744 INFO: Analyzing hidden import 'chardet.cli'
+144746 INFO: Analyzing hidden import 'chardet.cli.chardetect'
+144779 INFO: Analyzing hidden import 'chardet.langhungarianmodel'
+144865 INFO: Processing module hooks (post-graph stage)...
+145992 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+146907 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+149379 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+150491 INFO: Processing standard module hook 'hook-lxml.isoschematron.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+150544 INFO: Processing standard module hook 'hook-PySide6.Qt3DAnimation.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+152534 INFO: Processing standard module hook 'hook-PySide6.Qt3DCore.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+154147 INFO: Processing standard module hook 'hook-PySide6.Qt3DExtras.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+156066 INFO: Processing standard module hook 'hook-PySide6.Qt3DInput.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+157488 INFO: Processing standard module hook 'hook-PySide6.Qt3DLogic.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+158745 INFO: Processing standard module hook 'hook-PySide6.Qt3DRender.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+164070 INFO: Processing standard module hook 'hook-PySide6.QtAxContainer.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+165285 INFO: Processing standard module hook 'hook-PySide6.QtBluetooth.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+166629 INFO: Processing standard module hook 'hook-PySide6.QtCharts.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+168513 INFO: Processing standard module hook 'hook-PySide6.QtConcurrent.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+169581 INFO: Processing standard module hook 'hook-PySide6.QtDataVisualization.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+171257 INFO: Processing standard module hook 'hook-PySide6.QtDBus.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+172663 INFO: Processing standard module hook 'hook-PySide6.QtDesigner.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+176735 INFO: Processing standard module hook 'hook-PySide6.QtGraphs.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+178393 INFO: Processing standard module hook 'hook-PySide6.QtHelp.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+180001 INFO: Processing standard module hook 'hook-PySide6.QtHttpServer.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+181489 INFO: Processing standard module hook 'hook-PySide6.QtLocation.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+183914 INFO: Processing standard module hook 'hook-PySide6.QtMultimedia.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+189532 INFO: Processing standard module hook 'hook-PySide6.QtMultimediaWidgets.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+191135 INFO: Processing standard module hook 'hook-PySide6.QtNetworkAuth.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+192554 INFO: Processing standard module hook 'hook-PySide6.QtNfc.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+194186 INFO: Processing standard module hook 'hook-PySide6.QtOpenGL.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+195873 INFO: Processing standard module hook 'hook-PySide6.QtOpenGLWidgets.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+197101 INFO: Processing standard module hook 'hook-PySide6.QtPdf.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+198697 INFO: Processing standard module hook 'hook-PySide6.QtPdfWidgets.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+199971 INFO: Processing standard module hook 'hook-PySide6.QtPositioning.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+202507 INFO: Processing standard module hook 'hook-PySide6.QtPrintSupport.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+204056 INFO: Processing standard module hook 'hook-PySide6.QtQuick3D.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+205854 INFO: Processing standard module hook 'hook-PySide6.QtQuickControls2.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+207057 INFO: Processing standard module hook 'hook-PySide6.QtQuickWidgets.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+208412 INFO: Processing standard module hook 'hook-PySide6.QtRemoteObjects.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+209750 INFO: Processing standard module hook 'hook-PySide6.QtScxml.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+211394 INFO: Processing standard module hook 'hook-PySide6.QtSensors.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+213299 INFO: Processing standard module hook 'hook-PySide6.QtSerialBus.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+216728 INFO: Processing standard module hook 'hook-PySide6.QtSerialPort.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+217900 INFO: Processing standard module hook 'hook-PySide6.QtSpatialAudio.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+219724 INFO: Processing standard module hook 'hook-PySide6.QtSql.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+223083 INFO: Processing standard module hook 'hook-PySide6.QtStateMachine.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+224334 INFO: Processing standard module hook 'hook-PySide6.QtSvg.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+225519 INFO: Processing standard module hook 'hook-PySide6.QtSvgWidgets.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+226870 INFO: Processing standard module hook 'hook-PySide6.QtTest.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+228381 INFO: Processing standard module hook 'hook-PySide6.QtTextToSpeech.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+230787 INFO: Processing standard module hook 'hook-PySide6.QtUiTools.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+232219 INFO: Processing standard module hook 'hook-PySide6.QtWebChannel.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+233586 INFO: Processing standard module hook 'hook-PySide6.QtWebEngineCore.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+237907 INFO: Processing standard module hook 'hook-PySide6.QtWebEngineQuick.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+239727 INFO: Processing standard module hook 'hook-PySide6.QtWebEngineWidgets.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+241154 INFO: Processing standard module hook 'hook-PySide6.QtWebSockets.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+242326 INFO: Processing standard module hook 'hook-PySide6.QtXml.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+243750 WARNING: Hidden import "charset_normalizer.md__mypyc" not found!
+243751 INFO: Processing standard module hook 'hook-lxml.objectify.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+244032 INFO: Performing binary vs. data reclassification (3787 entries)
+414244 INFO: Looking for ctypes DLLs
+414266 INFO: Analyzing run-time hooks ...
+414275 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+414292 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+414305 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+414313 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+414323 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+414427 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\PyInstaller\\hooks'
+414820 INFO: Looking for dynamic libraries
+418808 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages\\shiboken6']
+418808 INFO: Extra DLL search directories (PATH): ['C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages\\PySide6']
+591177 WARNING: Library not found: could not resolve 'fbclient.dll', dependency of 'C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages\\PySide6\\plugins\\sqldrivers\\qsqlibase.dll'.
+591178 WARNING: Library not found: could not resolve 'MIMAPI64.dll', dependency of 'C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages\\PySide6\\plugins\\sqldrivers\\qsqlmimer.dll'.
+591179 WARNING: Library not found: could not resolve 'OCI.dll', dependency of 'C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages\\PySide6\\plugins\\sqldrivers\\qsqloci.dll'.
+591181 WARNING: Library not found: could not resolve 'LIBPQ.dll', dependency of 'C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages\\PySide6\\plugins\\sqldrivers\\qsqlpsql.dll'.
+591185 WARNING: Library not found: could not resolve 'Qt6QuickShapesDesignHelpers.dll', dependency of 'C:\\Users\\user\\AppData\\Roaming\\Python\\Python312\\site-packages\\PySide6\\qml\\QtQuick\\Shapes\\DesignHelpers\\qtquickshapesdesignhelpersplugin.dll'.
+591540 INFO: Warnings written to C:\Users\user\Desktop\Renpy Translator 2.5.7\HOSPITAL funcional\Wells Surgical Hospital Pro v4.4\build\Wells Surgical Hospital Pro v4.6\warn-Wells Surgical Hospital Pro v4.6.txt
+591708 INFO: Graph cross-reference written to C:\Users\user\Desktop\Renpy Translator 2.5.7\HOSPITAL funcional\Wells Surgical Hospital Pro v4.4\build\Wells Surgical Hospital Pro v4.6\xref-Wells Surgical Hospital Pro v4.6.html
+592705 INFO: checking PYZ
+592711 INFO: Building PYZ because PYZ-00.toc is non existent
+592718 INFO: Building PYZ (ZlibArchive) C:\Users\user\Desktop\Renpy Translator 2.5.7\HOSPITAL funcional\Wells Surgical Hospital Pro v4.4\build\Wells Surgical Hospital Pro v4.6\PYZ-00.pyz
+595705 INFO: Building PYZ (ZlibArchive) C:\Users\user\Desktop\Renpy Translator 2.5.7\HOSPITAL funcional\Wells Surgical Hospital Pro v4.4\build\Wells Surgical Hospital Pro v4.6\PYZ-00.pyz completed successfully.
+596785 INFO: checking PKG
+596786 INFO: Building PKG because PKG-00.toc is non existent
+596786 INFO: Building PKG (CArchive) Wells Surgical Hospital Pro v4.6.pkg
+801702 INFO: Building PKG (CArchive) Wells Surgical Hospital Pro v4.6.pkg completed successfully.
+802110 INFO: Bootloader C:\Users\user\AppData\Local\Programs\Python\Python312\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+802112 INFO: checking EXE
+802113 INFO: Building EXE because EXE-00.toc is non existent
+802113 INFO: Building EXE from EXE-00.toc
+802113 INFO: Copying bootloader EXE to C:\Users\user\Desktop\Renpy Translator 2.5.7\HOSPITAL funcional\Wells Surgical Hospital Pro v4.4\dist\Wells Surgical Hospital Pro v4.6.exe
+802484 INFO: Copying icon to EXE
+802619 INFO: Copying 0 resources to EXE
+802623 INFO: Embedding manifest in EXE
+802816 INFO: Appending PKG archive to EXE
+807968 INFO: Fixing EXE headers
+815420 INFO: Building EXE from EXE-00.toc completed successfully.
+
+C:\Users\user\Desktop\Renpy Translator 2.5.7\HOSPITAL funcional\Wells Surgical Hospital Pro v4.4>
